@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.money-details-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.money-card-1 {
+  background-color: #ecfccb;
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+.money-card-2 {
+  background-color: #cffafe;
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+.money-card-3 {
+  background-color: #ede9fe;
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+.balance-image {
+  width: 50px;
+  height: 50px;
+}
+.your-balance,
+.amount {
+  font-family: 'Roboto';
+  color: #7e858e;
+}

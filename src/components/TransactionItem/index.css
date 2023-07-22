@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.transaction-history-details-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.history-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.delete-button-image {
+  margin-top: 0px;
+  height: 10px;
+  width: 10px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.separator-1 {
+  min-width: 200px;
+}
